@@ -86,7 +86,7 @@
             outlined 
             class="recently-proposal"             
             :key="i"
-            :href="`https://vote.rei.network/#/proposal/`+item.id" 
+            :href="`https://snapshot.org/#/s:rei-network.eth/proposal/`+item.id" 
             target="_blank"
             v-if="i < 4"
             >
@@ -129,7 +129,7 @@
             </v-row>
         </v-card>
         </template>
-        <div class="footer-all"><a :href="`https://vote.rei.network/#/${spaceName}`" target="_blank">View All Proposals On Snapshot ></a></div>
+        <div class="footer-all"><a :href="`https://snapshot.org/#/s:rei-network.eth/proposals`" target="_blank">View All Proposals On Snapshot ></a></div>
      </v-card>
    </v-container>
 </template>
